@@ -1,0 +1,452 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	<head>
+		<title>Portfolio by ShuRong Liang</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: Verdana, sans-serif, 微軟正黑體;
+	}
+
+	.mySlides {
+		display: none;
+	}
+
+	img {
+		vertical-align: middle;
+	}
+
+	/* Slideshow container */
+	.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+
+	/* Caption text */
+	.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: transparent;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active {
+		background-color: transparent;
+	}
+
+	/* Fading animation */
+	.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+		from {
+			opacity: .4
+		}
+
+		to {
+			opacity: 1
+		}
+	}
+
+	@keyframes fade {
+		from {
+			opacity: .4
+		}
+
+		to {
+			opacity: 1
+		}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+		.text {
+			font-size: 11px
+		}
+	}
+
+#intro p {
+    font-size: 1.10em !important;
+}
+</style>
+
+<body class="is-preload" onSelectStart="return false" ONCONTEXTMENU="return false">
+	<!-- Sidebar -->
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="#intro">About ME</a></li>
+					<li><a href="#one">WEB 作品</a></li>
+					<li><a href="#two">JS 作品</a></li>
+					<li><a href="#three">PS & AI 作品</a></li>
+					<li><a href="#four">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+				<h2>梁舒絨 Mandy</h2>
+				<p>在職期間因有協助開發網站，想更精進撰寫程式的能力，故參與勞動部職訓局所開設「前端網頁開發技術」600小時專班，投入前端工程師轉職之路。目前正自學Vue.js中。我認為找出最快速且有效的方法，透過設計提供使用者不只有視覺上的體驗，更應有人性化的好感操作。
+				</p>
+			<div>
+				<p><strong><i class="fas fa-briefcase"></i> 經歷</strong>
+					<br><span style="color: white;">勞動部泰山職業訓練 - 前端網頁開發技術　|　Oct 2019 - Jan 2020</span>
+					<br>為期近四個月精實的職訓課程
+					<br>主要學習前端技術包括：HTML、CSS、JavaScript、Vue.js、JQuery、Bootstrap；
+					<br>後端技術PHP、MySQL；美編工具Photoshop、Illustrator。
+					<br><br><span style="color: white;">易安消防實業股份有限公司 - 業務助理　|　Oct 2018 - Jul 2019</span>
+					<br>針對客戶消防安全進行維護控管，協助業務人員完成後續與客戶溝通事宜、及銷售與進出貨事宜之行政後勤工作。
+				</p>
+			</div>
+			<div>
+				<p><strong><i class="fas fa-graduation-cap"></i> 學歷</strong>
+					<br><span style="color: white;">萬能科技大學 - 管理與資訊系　|　Sep 2011 - Jue 2015</span>
+				</p>
+			</div>
+			<p><strong><i class="fas fa-star"></i> 技能</strong>
+					<br>CSS、HTML、JavaScript、JQuery、PHP、MySQL
+					<br>Photoshop、Illustrator
+					<div>
+						<p><strong><i class="far fa-id-badge"></i> 證照</strong>
+							<br>網頁設計丙級技術士、丙級廣告設計技術士
+						</p>
+					</div>
+					
+				</p>
+				<ul class="actions">
+					<li><a href="#one" class="button scrolly">Learn more</a></li>
+					<!-- <li><a href="index.html" class="button scrolly">BACK</a></li> -->
+				</ul>
+			</div>
+		</section>
+
+		<!-- One -->
+		<section id="one" class="wrapper style2 spotlights">
+			<section>
+				<div class="image">
+					<img src="img/LD.png" alt="" data-position="center center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h2>《LOVER DALE》</h2>
+						<p>結訓個人專題：女裝服飾網站──以打造穿出屬於自己的穿搭風格為出發點，同時兼具流行時尚可愛的元素迸出新火花。Lover有情侶/伴侶之意，透過穿搭能讓自己及另一半傳達出幸福的感覺；有著自信與魅力，同時享受舒適的穿著感。</p>
+						<ul class="actions">
+							<li><a href="http://220.128.133.15/s1080416/LoverDale/" class="button">前往網站</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="image">
+					<img src="img/CF.png" alt="" data-position="center center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h2>《咖啡莊園》</h2>
+						<p>利用Bootstrap切版完成RWD咖啡廳網站。
+						</p>
+						<ul class="actions">
+							<li><a href="https://liang930517.github.io/Taishan_web/" class="button">前往網站</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- Two -->
+		<section id="two" class="wrapper style3 fade-up">
+			<div class="inner">
+				<!-- <h2>What we do</h2>
+				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat
+					malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
+					imperdiet est velit quis lorem.</p> -->
+				<div class="features">
+					<section>
+						<span class="icon solid major fa-palette"></span>
+						<h3>調色盤 ColorPicker</h3>
+						<p>即時輸出色票網頁色碼器：利用RGB數值拖曳出想要的顏色，以及加減按鈕和隨機變色。</p>
+						<ul class="actions">
+							<li><a href="http://220.128.133.15/s1080416/ColorPicker/color.html" class="button">前往網站</a></li>
+						</ul>
+					</section>
+					<section>
+						<span class="icon solid major fa-hourglass-half"></span>
+						<h3>電子鐘 | 倒數計時器 </h3>
+						<p>顯示現在時間與倒數計時器，可拿來應用在跨年及特殊節日的倒數日計算顯示。</p>
+						<ul class="actions">
+							<li><a href="http://220.128.133.15/s1080416/digitalClook/" class="button">前往網站</a></li>
+						</ul>
+					</section>
+					<section>
+						<span class="icon solid major fa-gamepad"></span>
+						<h3>恐怖故事小遊戲</h3>
+						<p>使用插件SweetAlert2所做出來的恐怖冒險選擇故事。</p>
+						<ul class="actions">
+							<li><a href="http://220.128.133.15/s1080416/StoryGame/" class="button">前往網站</a></li>
+						</ul>
+					</section>
+					<section>
+						<span class="icon solid major fa-clock"></span>
+						<h3>手錶</h3>
+						<p>挑戰用JavaScript寫出的手錶作品，可呈現台灣現在時間。</p>
+						<ul class="actions">
+							<li><a href="http://220.128.133.15/s1080416/Watch/watch.html" class="button">前往網站</a></li>
+						</ul>
+					</section>
+					<!-- <section>
+						<span class="icon solid major fa-link"></span>
+						<h3>Urna quis bibendum</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section>
+					<section>
+						<span class="icon major fa-gem"></span>
+						<h3>Aliquam urna dapibus</h3>
+						<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+							ultricies erat dapibus.</p>
+					</section> -->
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<!-- Three -->
+		<section id="three" class="">
+
+
+			<!-- Slideshow container -->
+			<div class="slideshow-container" style="text-align: center; padding: 70px;">
+
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">1 / 3</div> -->
+					<img src="ai/case/case.png" style="width:68%">
+					<!-- <div class="text">Caption Text</div> -->
+				</div>
+				
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">1 / 3</div> -->
+					<img src="ai/case/case2.png" style="width:68%">
+					<!-- <div class="text">Caption Text</div> -->
+				</div>
+
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">1 / 3</div> -->
+					<img src="ai/animal/bird.png" style="width:95%">
+					<!-- <div class="text">Caption Text</div> -->
+				</div>
+
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">2 / 3</div> -->
+					<img src="ai/fish/finish-01.jpg" style="width:110%">
+					<!-- <div class="text">Caption Two</div> -->
+				</div>
+
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">3 / 3</div> -->
+					<img src="ai/Shape/finish.jpg" style="width:90%">
+					<!-- <div class="text">Caption Three</div> -->
+				</div>
+
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">3 / 3</div> -->
+					<img src="ps/Newsletter/finish.jpg" style="width:68%">
+					<!-- <div class="text">Caption five</div> -->
+				</div>
+
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">3 / 3</div> -->
+					<img src="ps/Wine/HelloKitty.jpg" style="width:120%">
+					<!-- <div class="text">Caption six</div> -->
+				</div>
+
+			</div>
+
+			<!-- The dots/circles -->
+			<!-- <div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div> -->
+		</section>
+
+
+
+		<!-- four -->
+		<section id="four" class="wrapper style1 fade-up">
+			<div class="inner" style="padding: 7em;">
+				<h3>感謝您的閱讀，若您對於這份履歷有興趣，歡迎與我聯繫</h3>
+				<div class="split style1">
+					<section>
+						<ul class="contact" style="text-align: center;">
+							<li>
+								<img src="img/2.png" alt="" style="border-radius: 50%;">
+								<!-- <h3>Address</h3>
+								<span>12345 Somewhere Road #654<br />
+									Nashville, TN 00000-0000<br />
+									USA</span> -->
+							</li>
+							<li>
+								<h3>Email</h3>
+								<span>rong502njc@gmail.com</span>
+							</li>
+							<li>
+								<h3>Phone</h3>
+								<span>0916-761-517</span>
+							</li>
+							<li>
+								<h3>Social</h3>
+								<ul class="icons">
+									<!-- <li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li> -->
+									<!-- <li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li> -->
+									<li><a href="https://github.com/liang930517" class="icon brands fa-github"><span class="label">GitHub</span></a>
+									</li>
+									<!-- <li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/shurong-liang-9543611a4/" class="icon brands fa-linkedin-in"><span
+												class="label">LinkedIn</span></a></li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<!-- <section>
+						<form method="post" action="send_message.php">
+							<div class="fields">
+								<div class="field half">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" placeholder="請輸入e-mail" required />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="5"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><a href="" class="button submit">Send Message</a></li>
+							</ul>
+						</form>
+					</section> -->
+				</div>
+				<footer id="" class="">
+					<div class="inner">
+						<ul class="menu">
+							<li style="font-size: 12px;">&copy; CREATED BY SHURONG LIANG.</li>
+							<!-- <li>Design: <a href="admin.php">HTML5 UP</a></li> -->
+						</ul>
+					</div>
+				</footer>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) { slideIndex = 1 }
+				slides[slideIndex - 1].style.display = "block";
+				setTimeout(showSlides, 2500); // Change image every 2 seconds
+			}
+		</script>
+
+<script>
+//Disable select-text script (IE4+, NS6+)- By Andy Scott
+//Exclusive permission granted to Dynamic Drive to feature script
+//Visit http://www.dynamicdrive.com for this script
+
+function disableselect(e) {
+    return false
+}
+
+function reEnable() {
+    return true
+}
+
+//if IE4+
+document.onselectstart = new Function("return false")
+
+//if NS6
+if (window.sidebar) {
+    document.onmousedown = disableselect
+    document.onclick = reEnable
+}
+</script>
+
+
+</body>
+
+</html>
